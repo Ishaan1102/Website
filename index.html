@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta Data -->
+	<meta charset="UTF-8">
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Ishaan" />
+	<meta name="description" content="Ishaan Bansal - Full Stack Developer - ReactJS | MongoDB | Python | JavaScript"> 
+	
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="Ishaan Bansal - Full Stack Developer - ReactJS | MongoDB | Python | JavaScript">
+	<meta name="twitter:image" content="assets/img/logo/logo.png">
+	<meta name="twitter:title" content="Ishaan Bansal">
+	<meta name="twitter:site" content="@ishaanbansall">
+	<meta name="twitter:creator" content="@ishaanbansall"> 
+	
+	<!-- Open Graph data -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="Portfolio">
+	<meta property="og:title" content="Ishaan Bansal - Full Stack Developer - ReactJS | MongoDB | Python | JavaScript">
+	<meta property="og:site_name" content="Ishaan Bansal">
+	<meta property="og:image" content="assets/img/logo/logo.png">
+	
+	<!-- Google Meta -->
+	
+	<!-- Title -->
+	<title>Ishaan Bansal - Full Stack Developer - ReactJS | MongoDB | Python | JavaScript</title>
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+</head>
+
+<body>
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="preloader__wrap">
+			<div class="circle-pulse">
+				<div class="circle-pulse__1"></div>
+				<div class="circle-pulse__2"></div>
+			</div>
+			<div class="preloader__progress"><span></span></div>
+		</div>
+	</div>
+
+	<main class="main">
+		<!-- Dark/Light Toggle -->
+		<div class="dark-light m-3">
+			<div class="btn-group" role="group">
+				<button data-toggle="tooltip" title="Switch to Light Mode" type="button" class="btn toggle-btn light"><i class="fas fa-sun"></i></button>
+				<button data-toggle="tooltip" title="Switch to Dark Mode" type="button" class="btn toggle-btn dark"><i class="fas fa-moon"></i></button>
+			  </div>
+		</div>
+
+		<!-- Header Image -->
+		<div class="header-image">
+			<div class="js-parallax" style="background-image: url(assets/img/header_bg_1x.png);"></div>
+		</div>
+
+		<div class="container gutter-top">
+			<!-- Header -->
+			<header class="header box">
+				<div class="header__left">
+					<div class="header__photo">
+						<img class="header__photo-img" src="assets/img/logo/logo.png" alt="Ishaan Bansal">
+					</div>
+					<div class="header__base-info">
+						<h4 class="title titl--h4">Ishaan Bansal</h4>
+						<div class="status">Full Stack Developer</div>
+						<ul class="header__social">
+							<li><a target="_blank" href="https://www.facebook.com/profile.php?id=100008141443200"><i class="fab fa-facebook"></i></a></li>
+							<li><a target="_blank" href="https://x.com/IshaanBansall"><i class="fab fa-twitter"></i></a></li>
+							<li><a target="_blank" href="https://www.linkedin.com/in/ib00/"><i class="fab fa-linkedin"></i></a></li>
+							<li><a target="_blank" href="https://github.com/Ishaan1102"><i class="fab fa-github"></i></a></li>
+							<li><a target="_blank" href="https://stackoverflow.com/users/25260092/ishaan-bansal"><i class="fab fa-stack-overflow"></i></a></li>
+							<li><a target="_blank" href="https://www.hackerrank.com/profile/ibansal3"><i class="fab fa-hackerrank"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header__right">
+					<ul class="header__contact">
+						<li><span class="overhead">Email</span><a href="mailto:Ibansal1102@gmail.com">Ibansal1102@gmail.com</a></li>
+						<li><span class="overhead">Location</span>Massachusetts, USA</li>
+					</ul>
+				</div>
+				
+			</header>
+			
+			<div class="row sticky-parent">
+				<!-- Sidebar nav -->
+				<aside class="col-12 col-md-12 col-lg-2">
+					<div class="sidebar box sticky-column">
+						<ul class="nav js-tabs">
+							<li class="nav__item"><a class="active" href="#about-tab"><i class="icon-user"></i>About</a>
+							</li>
+							<li class="nav__item"><a href="#resume-tab"><i class="icon-file-text"></i>Resume</a></li>
+							<li class="nav__item"><a href="#projects-tab"><i class="icon-codesandbox"></i>Projects</a></li>
+							<li class="nav__item"><a href="#contact-tab"><i class="icon-book"></i>Contact</a></li>
+						</ul>
+					</div>
+				</aside>
+
+				<!-- Content -->
+				<div class="col-12 col-md-12 col-lg-10">
+					<div class="box box-content mb-5" id="content">
+
+						<div class="content">
+							<!-- ABOUT -->
+							<div id="about-tab" class="tabcontent active">
+								<div class="pb-0 pb-sm-2">
+									<h1 class="title title--h1 first-title title__separate">About Me</h1>
+									<p> 
+										I am a passionate software developer currently pursuing a Bachelor of Science in Computer Science at the 
+										University of Massachusetts Amherst. My education has provided me with a strong foundation in various 
+										programming languages, frameworks, and technologies.
+									</p>
+									<p>
+
+										In my recent role as a Systems Development Intern at ThoughtFlow, I enhanced workflow visualizations, 
+										integrated libraries for multi-node connections, and optimized user experiences using the MERN stack. These 
+										efforts resulted in significant improvements in efficiency and user satisfaction. As a Software Intern at 
+										Urban Company, I developed dynamic backend systems, communication platforms, and automated HR applications, 
+										leading to a substantial increase in productivity.
+
+									</p>
+									<p>
+										I am driven by the potential of software development to improve lives and solve real-world problems. I am 
+										dedicated to continuous learning and professional growth, and I look forward to contributing to new and exciting projects.
+									</p>
+								</div>
+
+								<!-- What -->
+								<div class="mt-1">
+									<h2 class="title title--h3">What I'm Doing</h2>
+									<div class="row">
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/design.png"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Web Design</h3>
+													<p class="case-item__caption">I specialize in creating visually appealing and user-friendly websites. I enjoy coding from scratch and bringing ideas to life in the browser with a focus on simple content structure, clean design patterns, and thoughtful interactions.</p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/software.png"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Software Development</h3>
+													<p class="case-item__caption">Leveraging my skills in Python and .NET, I build custom software solutions that meet specific business needs. I focus on creating reliable, maintainable, and high-performance applications.</p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/game.png"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Game Development</h3>
+													<p class="case-item__caption">Using HTML5 canvas, JavaScript, and the GSAP animation library, I create engaging and interactive game experiences. My projects showcase my ability to combine creativity with technical expertise.</p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/web.png"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Web Development</h3>
+													<p class="case-item__caption">I develop secure, efficient, and scalable web applications using modern technologies like ReactJS and NodeJS. My goal is to write standard, well-documented, and efficient code to deliver robust web-based management systems.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- RESUME -->
+							<div id="resume-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Resume</h1>
+								</div>
+
+								<!-- Experience -->
+								<div class="row">
+									<div class="col-12">
+										<h2 class="title title--h3"><img class="title-icon"
+												src="assets/icons/education.png"
+												alt="" /> EDUCATION</h2>
+										<div class="timeline">
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">University of Massachusetts, Amherst</h5>
+												<span class="timeline__period"> Jan 2021 — May 2024</span> <br>
+												<span class="timeline__period">Bachelor of Science in Computer Science</span>
+												<!-- <p class="timeline__description"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p> -->
+											</article>
+
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Delhi Public School, RK Puram, Delhi</h5>
+												<span class="timeline__period">May 2018 - May 2020</span><br>
+												<span class="timeline__period">High School</span>
+												<!-- <p class="timeline__description"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p> -->
+											</article>
+
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">The Srjan School, Delhi</h5>
+												<span class="timeline__period">May 2006 - April 2018</span>
+												<!-- <p class="timeline__description"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p> -->
+											</article>
+										</div>
+									</div>
+
+									<div class="col-12">
+										<h2 class="title title--h3"><img class="title-icon"
+												src="assets/icons/experience.png"
+												alt="" /> EXPERIENCE</h2>
+										<div class="timeline">
+											
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Systems Development Intern</h5>
+												<span class="timeline__period">May 2023 - Aug 2023</span><br>
+												<span class="timeline__period">At <b>ThoughtFlow - New Jersey, US</b> </span>
+<!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
+											</article>
+											
+
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Software Development Intern</h5>
+												<span class="timeline__period">May 2022 — Aug 2022</span><br>
+												<span class="timeline__period">At <b>UrbanCompany - New Delhi, India</b> </span>
+<!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
+											</article>
+											
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Software Engineer</h5>
+												<span class="timeline__period">Jan 2021 — May 2022</span><br>
+												<span class="timeline__period">At <b>Build Umass - Massachusetts, US</b> </span>
+<!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
+											</article>
+
+											<!-- Item -->
+										</div>
+									</div>
+								</div>
+
+								<!-- Skills -->
+							<div class="row">
+								<div class="col-12">
+									<h2 class="title title--h3">My Skills</h2>
+									<div class="box box__border">
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+												<div class="progress-text"><span>Web Development</span><span>90%</span></div>
+											</div>
+											<div class="progress-text"><span>Web Development</span></div>
+										</div>
+
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100">
+												<div class="progress-text"><span>Backend Development</span><span>85%</span></div>
+											</div>
+											<div class="progress-text"><span>Backend Development</span></div>
+										</div>
+
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100">
+												<div class="progress-text"><span>Database Management</span><span>80%</span></div>
+											</div>
+											<div class="progress-text"><span>Database Management</span></div>
+										</div>
+
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100">
+												<div class="progress-text"><span>Mobile Apps Development</span><span>75%</span></div>
+											</div>
+											<div class="progress-text"><span>Mobile Apps Development</span></div>
+										</div>
+
+										<div>
+											<span class="badge badge-primary">HTML</span>
+											<span class="badge badge-primary">CSS</span>
+											<span class="badge badge-primary">JavaScript</span>
+											<span class="badge badge-primary">MongoDB</span>
+											<span class="badge badge-primary">Redux</span>
+											<span class="badge badge-primary">NodeJS</span>
+											<span class="badge badge-primary">Python</span>
+											<span class="badge badge-primary">Java</span>
+											<span class="badge badge-primary">MongoDB</span>
+											<span class="badge badge-primary">Github</span>
+											<span class="badge badge-primary">MongoDB</span>
+											<span class="badge badge-primary">Assembly</span>
+											<span class="badge badge-primary">SQL</span>
+											<span class="badge badge-primary">REST API</span>
+											<span class="badge badge-primary">Git</span>
+											<span class="badge badge-primary">PostGres</span>
+											<span class="badge badge-primary">Angular</span>
+											<span class="badge badge-primary">AWS</span>
+											<span class="badge badge-primary">Agile Development</span>
+											<span class="badge badge-primary">Leadership</span>
+											<span class="badge badge-primary">Team Collaboration</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+							
+
+							<!-- Protfolio -->
+							<div id="projects-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Projects</h1>
+								</div>
+
+								<!-- News -->
+								<div class="news-grid">
+									<!-- Project -->
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">April<span>2023</span></div>
+											<a class="news-item__link" target="_blank" href="https://github.com/Ishaan1102/Devconnector"></a>
+											<img class="cover lazyload" src="assets/img/Project1.png" alt="Screenshot of the social media site for developers project" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">Social Media Site for Developers</h2>
+											<p>Developed a specialized social networking platform for developers, featuring secure backend API integration and a React frontend optimized with Redux.</p>
+										</div>
+									</article>
+
+									<!-- Project -->
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">Dec<span>2022</span></div>
+											<a class="news-item__link" target="_blank" href="https://landmarkaccessories.com/"></a>
+											<img class="cover lazyload" src="assets/img/Project2.png" alt="Screenshot of the customer website project" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">Customer Website</h2>
+											<p>Enhanced workflow visualizations and user experience on a customer website, integrating advanced libraries and analytics tools.
+											</p>
+										</div>
+									</article>
+
+									<!-- Project -->
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">Sep<span>2022</span></div>
+											<a class="news-item__link" target="_blank" href="https://github.com/Ishaan1102/Chess-game"></a>
+											<img class="cover lazyload" src="assets/img/Project3.png" alt="Screenshot of the chess game project" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">Chess Game </h2>
+											<p>Created an immersive chess game with Python and Pygame, featuring move validation, modular and maintainable code, and a responsive user interface.</p>
+										</div>
+									</article>
+
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">Feb<span>2022</span></div>
+											<a class="news-item__link" target="_blank" href="https://github.com/SarthakSwaroop/Office-Hours-320"></a>
+											<img class="cover lazyload" src="assets/img/Project7.png" alt="Screenshot of the budget tracker project" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">Schedule Builder</h2>
+											<p>It is a comprehensive and user-friendly platform designed to streamline the organization and management of office hours, facilitating efficient communication and scheduling between students and instructors.
+											</p>
+										</div>
+									</article>
+
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">Feb<span>2022</span></div>
+											<a class="news-item__link" target="_blank" href="https://github.com/Ishaan1102/Billing-System"></a>
+											<img class="cover lazyload" src="assets/img/Project4.png" alt="Screenshot of the budget tracker project" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">Budget Tracker</h2>
+											<p>Designed a detailed billing system with user registration, recurring tracking alerts, and a robust backend integrated with a user-centric React frontend.
+											</p>
+										</div>
+									</article>
+									
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">Nov<span>2021</span></div>
+											<a class="news-item__link" target="_blank" href="https://ishaan1102.github.io/Fighting-Game/"></a>
+											<img class="cover lazyload" src="assets/img/Project5.png" alt="Screenshot of the animated fighting game project" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">Animated Game</h2>
+											<p>Led the development of a 2D interactive fighting game using HTML5 canvas, JavaScript, and GSAP, featuring dynamic animations and game state management.
+											</p>
+										</div>
+									</article>
+
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<div class="news-item__date">Nov<span>2021</span></div>
+											<a class="news-item__link" target="_blank" href="https://ishaan1102.github.io/Fighting-Game/"></a>
+											<img class="cover lazyload" src="assets/img/Project1.png" alt="Screenshot of the Covid-19 tracker project" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">Covid-19 Tracker</h2>
+											<p>Created an interactive webpage for real-time Covid-19 tracking with data visualizations sourced from John Hopkins University.
+											</p>
+										</div>
+									</article>
+
+								</div>
+							</div>
+
+							<!-- CONTACT -->
+							<!-- CONTACT -->
+							<div id="contact-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Contact</h1>
+								</div>
+
+								<!-- Contact -->
+								<div class="map" id="map">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.9242678372416!2d-72.53262642388924!3d42.386759771190356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6d273e4f0f865%3A0xa0d6586089148e05!2sUniversity%20of%20Massachusetts%20Amherst!5e0!3m2!1sen!2sus!4v1716763024676!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+								</div>
+								<h2 class="title title--h3">Contact Form</h2>
+								<ul class="header__contact">
+									<li><span class="overhead">Email</span><a href="mailto:Ibansal1102@gmail.com">Ibansal1102@gmail.com</a></li>
+									<li><span class="overhead">Location</span>Massachusetts, USA</li>
+								</ul>
+								
+							</div>
+						</div>
+					</div>
+					<!-- Footer -->
+					<footer class="footer">© 2023 @Ishaan Bansal</footer>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- BackToTop -->
+	<div class="back-to-top"></div>
+
+	<!-- JavaScripts -->
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/plugins.min.js"></script>
+	<script src="assets/js/common.js"></script>
+
+	<script>
+		if (localStorage.getItem("theme") === null) {
+			localStorage.setItem('theme', 'dark');
+		} 
+		if(localStorage.getItem('theme') === 'dark') {
+			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="assets/styles/style-dark.css" />');
+		} else {
+			$('head link[href="assets/styles/style-dark.css"]').remove();
+		}
+
+		$('.light').click(function (){
+			localStorage.setItem('theme', 'light');
+			$('head link[href="assets/styles/style-dark.css"]').remove();
+		});
+
+		$('.dark').click(function (){
+			localStorage.setItem('theme', 'dark');
+			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="assets/styles/style-dark.css" />');
+		});
+
+		$('[data-toggle="tooltip"]').tooltip({
+			trigger : 'hover'
+		});
+	</script>
+</body>
+
+</html>
