@@ -360,10 +360,10 @@ select option,
   border-color: #33363D;
 }
 .timeline__item::before {
-  background-color: #0D86FF;
+  background-color: #80bcf7;
 }
 .timeline__period {
-  color: rgba(174, 176, 184, 0.7);
+  color: rgba(136, 142, 165, 0.7);
 }
 
 /* Progress  */
